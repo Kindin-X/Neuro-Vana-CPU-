@@ -1,32 +1,40 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Build files
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.out
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
 *.so
-*.dylib
+*.a
+*.exe
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
+# Python cache (if using Python tools)
+__pycache__/
+*.py[cod]
+*.pyo
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
 
-# Executables
-*.exe
-*.out
-*.app
+# IDEs
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment / Package managers
+.env
+.venv/
+venv/
+*.egg-info/
+
+# Misc
+*.bak
+*.swp
