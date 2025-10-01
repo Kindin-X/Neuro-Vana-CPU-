@@ -1,0 +1,1 @@
+dot -Tpng graph.dot -o graph.png在这个文件的终端上输入该指令
